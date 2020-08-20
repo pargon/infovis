@@ -15,3 +15,6 @@
 [w33 flourish pie](https://pargon.github.io/infovis/w33_pie_flou.html)
 
 [w33 powerbi map](https://pargon.github.io/infovis/w33_pi.pdf)
+
+# Locations Google
+[My Locations 2020](https://pargon.github.io/infovis/locations_2020.html)
