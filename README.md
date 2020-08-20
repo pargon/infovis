@@ -16,5 +16,7 @@
 
 [w33 powerbi map](https://pargon.github.io/infovis/w33_pi.pdf)
 
-# Locations Google
-[My Locations 2020](https://pargon.github.io/infovis/locations_2020.html)
+# My Data
+[Google Locations 2020](https://pargon.github.io/infovis/locations_2020.html)
+
+[Youtube 2020](https://pargon.github.io/infovis/youtube_2020.html)
