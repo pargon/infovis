@@ -12,7 +12,7 @@
 # Digital Nation
 [w33 d3 pie](https://pargon.github.io/infovis/w33_pie_D3.html)
 
-[w33 flourish pie](https://pargon.github.io/infovis/w33_pie_flou.html)
+[w33 flourish bars](https://pargon.github.io/infovis/w33_pie_flou.html)
 
 [w33 powerbi map](https://pargon.github.io/infovis/w33_pi.pdf)
 
