@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<div id="observablehq-bc019d0d"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/8f0976bcac2f6d1e.js?v=3";
+const inspect = Inspector.into("#observablehq-bc019d0d");
+(new Runtime).module(define, name => name === "ddfdf" ? inspect() : undefined);
+</script>
