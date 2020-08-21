@@ -16,6 +16,9 @@
 
 [w33 powerbi map](https://pargon.github.io/infovis/w33_pi.pdf)
 
+# Covid
+[Obs D3](https://pargon.github.io/infovis/covid_obsd3.html)
+
 # My Data
 [Google Locations 2020](https://pargon.github.io/infovis/locations_2020.html)
 
