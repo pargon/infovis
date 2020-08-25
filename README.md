@@ -23,3 +23,5 @@
 [Google Locations 2020](https://pargon.github.io/infovis/locations_2020.html)
 
 [Youtube 2020](https://pargon.github.io/infovis/youtube_2020.html)
+
+[TP 2020](https://pargon.github.io/infovis/tp.html)
