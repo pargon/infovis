@@ -25,3 +25,5 @@
 [Youtube 2020](https://pargon.github.io/infovis/youtube_2020.html)
 
 [TP 2020](https://pargon.github.io/infovis/tp.html)
+
+[TP 2020_echart](https://pargon.github.io/infovis/tp_echart_1.html)
