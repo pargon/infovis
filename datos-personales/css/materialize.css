@@ -2944,7 +2944,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #82B1FF;
+  background-color: #aed6f1;
 }
 
 .page-footer .footer-copyright {
@@ -4305,7 +4305,7 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
-  background-color: #82B1FF;
+  background-color: #aed6f1;
 }
 
 @media only screen and (min-width: 993px) {
