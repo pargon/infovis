@@ -53,7 +53,7 @@
       </div>
 
       <div class="row">
-        <div class='tableauPlaceholder' id='algo2' style='position: relative'>
+        <div class='tableauPlaceholder' id='algo3' style='position: relative'>
           <div id="observablehq-bcac5f68"></div>
             <script type="module">
             import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -85,44 +85,6 @@
   </div>
 </footer>
 
-
-
-<script type="module">
-  
-  import {Runtime, Inspector, Library} from "https://unpkg.com/@observablehq/notebook-runtime?module";
-  import notebook from "https://pargon.github.io/infovis/datos-personales/tp_echart_1.html";
-  
-  const test = document.querySelector("#chart");
-  
-  const stdlib = new Library;
-  
-  const library = Object.assign({}, stdlib, {width});
-  
-  function width() {
-    return stdlib.Generators.observe(notify => {
-      let width = notify(test.clientWidth);
-      
-      function resized() {
-        let width1 = test.clientWidth;
-        if (width1 !== width) notify(width = width1);
-      }
-      
-      window.addEventListener("resize", resized);
-      return () => window.removeEventListener("resize", resized);
-    });
-  }
-  
-  Runtime.load(notebook, library, cell => {
-    if (cell.name === "chart") {
-      return new Inspector(test);
-    }
-  });
-  
-</script>
-
-<script>
-
-</script>
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
