@@ -1,0 +1,45 @@
+<h2>Sorteo Amigo Invisible</h2>
+<p>Presionar botón "Mi amigo es"</p>
+
+<ul>
+	<li>Silvia</li>
+	<li>Manuel</li>
+	<li>Vale</li>
+	<li>Gonza</li>
+	<li>July</li>
+	<li>Nel</li>
+</ul>
+<p>
+<button id="show_source_code" onclick="muestraMensaje();" >Mi amigo es</button>
+</p>
+<p id="source_code_result"></p>
+<script>
+
+function muestraMensaje() {
+                var source = 'algo elegido';
+                var result = document.getElementById('source_code_result');
+                result.innerText = source;
+
+
+var data = sessionStorage.getItem('list'); 
+
+if (data =='')
+data = '{"lista":["Silvia","Manuel","Gonza","Vale","July","Nel"]}';
+
+const jdata = JSON.parse(data);
+
+for (var i = 0; i < jdata.lista.length; i++) {
+//alert(jdata.lista[i])
+}
+
+jdata.lista.push('"Nuevo ' + jdata.lista.length + '"');
+
+data = JSON.stringify(jdata);
+sessionStorage.setItem('list', data); 
+
+var id = Math.floor(Math.random() * jdata.lista.length )) 
+alert('Seleccion ' + id + ' ' + jdata.lista[id])
+
+
+}
+</script>
