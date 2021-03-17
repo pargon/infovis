@@ -1,5 +1,7 @@
 # Infovis
 
+#CV
+[cv](https://pargon.github.io/infovis/CV_Gonzalo Parra.pdf)
 
 # Visits
 [w31](https://pargon.github.io/infovis/w31.html)
