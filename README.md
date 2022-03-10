@@ -29,11 +29,13 @@
 [TP 2020](https://pargon.github.io/infovis/datos-personales/index.html)
 
 # Certificado
+```{=html}
  <iframe
-              src="https://blockeducate.vottun.com/badgedetail?id=098da265-fb3e-44ad-9a51-b82159554b22"
-              width="200px"
-              height="200px"
-              frameborder="0"
-              allowfullscreen>
-            </iframe>
+ src="https://blockeducate.vottun.com/badgedetail?id=098da265-fb3e-44ad-9a51-b82159554b22"
+ width="200px"
+ height="200px"
+ frameborder="0"
+ allowfullscreen>
+ </iframe>
+```
           
